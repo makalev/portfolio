@@ -1,0 +1,31 @@
+.header {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 40px 0 70px;
+    width: 100%;
+    max-width: 1440px;
+    height: 155px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        padding: 10px;
+        width: 580px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 700;
+        color: $second-color;
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+    .hamburger {
+        display: none;
+    }
+}

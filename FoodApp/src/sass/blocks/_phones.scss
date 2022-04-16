@@ -1,0 +1,14 @@
+.phones {
+    margin-top: -150px;
+    &__images {
+        display: block;
+        margin: 0 auto;
+    }
+    .divider {
+        margin: 0 auto;
+        margin-top: 120px;
+        width: 884px;
+        height: 3px;
+        background: #b5b5b5;
+    }
+}

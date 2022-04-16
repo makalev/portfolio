@@ -1,0 +1,42 @@
+.works {
+    padding-top: 90px;
+    min-height: 800px;
+    &__title {
+        font-size: 44px;
+        line-height: 36px;
+        font-weight: 700;
+        text-align: center;
+        opacity: .8;
+    }
+    &__wrapper {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__rew {
+        flex-direction: row-reverse;
+    }
+    &__block {
+        padding: 0 75px;
+        &-title {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 700;
+            color: $main-color;
+        }
+        &-subtitle {
+            font-size: 40px;
+            line-height: 57px;
+            font-weight: 700;
+            color: $second-color;
+        }
+    }
+    &__text {
+        margin: 20px 0;
+        font-size: 24px;
+        line-height: 38px;
+        font-weight: 500;
+        color: #737373;
+    }
+}

@@ -1,0 +1,28 @@
+.footer {
+    margin: 0 auto;
+    padding: 0 40px 0 70px;
+    width: 100%;
+    max-width: 1440px;
+    height: 155px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__menu {
+        width: 170px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__text {
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #5C5C5C;
+    }
+    &__social {
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}
