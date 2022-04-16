@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap');
+
+@import 'base/variables';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@import 'blocks/header';
+@import 'blocks/hamburger';
+@import 'blocks/intro';
+@import 'blocks/button';
+@import 'blocks/features';
+@import 'blocks/works';
+@import 'blocks/team';
+@import 'blocks/social';
+@import 'blocks/reviews';
+@import 'blocks/download';
+@import 'blocks/footer';
+@import 'blocks/media';

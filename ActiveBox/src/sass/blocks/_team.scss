@@ -1,0 +1,35 @@
+.team {
+    margin: 100px 0 70px 0;
+    background-color: #fff;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+    &__item {
+        width: 25%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+    }
+    &__photo {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    &__name {
+        margin-top: 20px;
+        font-size: 22px;
+        color: #2d3033;
+    }
+    &__prof {
+        margin-top: 10px;
+        font-size: 13px;
+        color: #e84545;
+    }
+    &__text {
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #6c7279;
+    }
+}

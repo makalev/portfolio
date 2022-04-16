@@ -1,0 +1,85 @@
+.reviews {
+    background-color: #53354a;
+    overflow: hidden;
+    &__slider {
+        height: 500px;
+        overflow: hidden;
+    }
+    &__item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__photo {
+        width: 50%;
+        height: 500px;
+        position: relative;
+        img {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            z-index: 1;
+            transform: translateY(-50%);
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        padding-left: 80px;
+    }
+    &__text {
+        font-family: 'Cardo', sans-serif;
+        font-size: 36px;
+        font-style: italic;
+        line-height: 1.2;
+        color: #fff;
+    }
+    &__author {
+        margin-top: 25px;
+        font-size: 13px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    .slick-initialized {
+        height: auto;
+    }
+}
+.slick {
+    &-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0 10px;
+        list-style-type: none;
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        li {
+            margin: 0 5px;
+        }
+        button {
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            border: 0;
+            border-radius: 50%;
+            padding: 0;
+            font-size: 0;
+            color: transparent;
+            opacity: 0.5;
+            cursor: pointer;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    &-active {
+        button {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.footer {
+    background-color: #3a3e64;
+    &__wrapper {
+        display: flex;
+        padding: 70px 0;
+        flex-wrap: wrap;
+    }
+    &__block {
+        width: 33.3333%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__address, &__text {
+        color: rgba(255, 255, 255, .5);
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .copyright {
+        padding: 20px 0;
+        background-color: #313454;
+        &__text {
+            text-align: center;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #808080;
+            span {
+                color: #fff;
+            }
+        }
+    }
+}

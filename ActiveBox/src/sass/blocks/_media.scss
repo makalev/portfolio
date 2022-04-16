@@ -1,0 +1,160 @@
+@media (max-width: 1200px) {
+    .intro {
+        &__title {
+            font-size: 55px;
+        }
+        &__subtitle {
+            font-size: 22px;
+        }
+    }
+    .works {
+        &__item {
+            width: 50%;
+            height: 300px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        .nav {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            text-align: right;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: #31344e;
+            &__link {
+                padding: 10px 15px;
+                margin-left: 0;
+            }
+            
+        }
+        .hamburger {
+            display: block;
+        }
+        .active {
+            display: flex;
+        }
+    }
+    .intro {
+        height: auto;
+        padding: 130px 0 40px 0;
+        &__title {
+            font-size: 45px;
+        }
+        &__subtitle {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+    .features {
+        &__item {
+            width: 50%;
+        }
+    }
+    .team {
+        &__item {
+            width: 50%;
+            text-align: center;
+        }
+        &__photo {
+            margin: 0 auto;
+        }
+    }
+    .social {
+        justify-content: center;
+    }
+    .reviews {
+        &__photo {
+            width: 100%;
+            margin: 15px 0 40px 0;
+            overflow: hidden;
+        }
+        &__content {
+            width: 100%;
+            padding: 0 0 40px 0;
+        }
+        &__text {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .intro {
+        &__title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+    }
+    .features {
+        margin: 30px 0;
+        &__item {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .works {
+        &__item {
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .team {
+        margin: 60px 0 30px 0;
+        &__item {
+            width: 100%;
+        }
+    }
+    .reviews {
+        &__photo {
+            img {
+                min-width: 100%;
+                top: 50%;
+                left: 50%;
+                transform: translate3d(-65%, -50%, 0);
+            }
+        }
+    }
+    .download {
+        margin: 50px 0;
+        &__title {
+            font-size: 24px;
+        }
+    }
+    .footer {
+        &__wrapper {
+            padding: 30px 0;
+        }
+        &__block {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .intro {
+        &__title {
+            font-size: 25px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+    .btn {
+        &_long {
+            min-width: 260px;
+        }
+    }
+}

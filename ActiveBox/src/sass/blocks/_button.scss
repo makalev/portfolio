@@ -1,0 +1,27 @@
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    font-size: 13px;
+    line-height: 1;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    transition: .5s all;
+    &_red {
+        background-color: #e84545;
+        
+    }
+    &:hover {
+        background-color: #000000;
+    }
+    &_long {
+        min-width: 280px;
+    }
+}

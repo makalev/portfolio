@@ -1,0 +1,16 @@
+.download {
+    margin: 90px 0;
+    text-align: center;
+    &__title {
+        font-size: 28px;
+        color: #2d3033;
+        font-weight: 300;
+    }
+    &__text {
+        margin: 10px 0 30px 0;
+        font-size: 13px;
+        font-weight: 700;
+        color: #2d3033;
+        text-transform: uppercase;
+    }
+}

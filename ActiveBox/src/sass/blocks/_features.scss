@@ -1,0 +1,26 @@
+.features {
+    margin: 95px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 33.3333%;
+        padding: 0 40px;
+        margin: 25px 0;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 25px;
+        font-size: 14px;
+        color: #2d3033;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+        color: #6c7279;
+    }
+}
